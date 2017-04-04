@@ -20,7 +20,7 @@ as long as all the necessary client libraries are installed in the docker image.
 
 To run just execute:
 
-  dockermpi -f myhosts mycontainer mycommand myargs
+```dockermpi -f myhosts mycontainer mycommand myargs```
   
 Where myhosts is a text file containing one entry with the format "hostname:num_cpus"
 per line.
